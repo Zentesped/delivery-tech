@@ -1,0 +1,10 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 28/08/2025 22:04:24
+Método: GET
+URL Completa: http://localhost:8080/api/restaurantes
+Status HTTP: 200
+Content-Type: application/json
+
+
+=== RESPOSTA REAL ===
+[ ]

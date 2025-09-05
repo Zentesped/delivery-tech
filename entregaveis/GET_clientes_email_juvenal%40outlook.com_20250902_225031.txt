@@ -1,0 +1,18 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 02/09/2025 22:50:31
+Método: GET
+URL Completa: http://localhost:8080/api/clientes/email/juvenal%40outlook.com
+Status HTTP: 200
+Content-Type: application/json
+
+
+=== RESPOSTA REAL ===
+{
+  "id" : 6,
+  "nome" : "Juvenal Muniz",
+  "telefone" : "5920327722",
+  "endereco" : "lourenco rodrigues",
+  "email" : "juvenal@outlook.com",
+  "ativo" : true,
+  "dataCriacao" : "2025-09-02T22:47:25.656355"
+}

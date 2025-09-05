@@ -1,0 +1,23 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 02/09/2025 23:23:08
+Método: GET
+URL Completa: http://localhost:8080/api/clientes/5
+Status HTTP: 200
+Content-Type: application/json
+
+
+=== RESPOSTA REAL ===
+{
+  "success" : true,
+  "data" : {
+    "id" : 5,
+    "nome" : "Carlos Ferreira",
+    "telefone" : "11543210987",
+    "endereco" : "Rua 25 de Março, 654 - Centro, São Paulo - SP",
+    "email" : "carlos@email.com",
+    "ativo" : true,
+    "dataCriacao" : "2025-09-02T23:12:16.638781"
+  },
+  "message" : "Cliente encontrado",
+  "timestamp" : "2025-09-02T23:23:08.5467722"
+}

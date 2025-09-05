@@ -1,0 +1,24 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 02/09/2025 22:47:47
+Método: PUT
+URL Completa: http://localhost:8080/api/clientes/6
+Status HTTP: 400
+Content-Type: application/json
+
+=== DADOS ENVIADOS ===
+{
+  "nome" : "stringstri",
+  "telefone" : "0929576879",
+  "email" : "string",
+  "endereco" : "string"
+}
+
+=== RESPOSTA REAL ===
+{
+  "validationErrors" : {
+    "email" : "deve ser um endereço de e-mail bem formado"
+  },
+  "error" : "Dados inválidos",
+  "timestamp" : "2025-09-02T22:47:47.9118559",
+  "status" : 400
+}

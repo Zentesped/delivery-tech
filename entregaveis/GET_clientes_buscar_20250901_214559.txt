@@ -1,0 +1,10 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 01/09/2025 21:45:59
+Método: GET
+URL Completa: http://localhost:8080/api/clientes/buscar?nome=mayara
+Status HTTP: 200
+Content-Type: application/json
+
+
+=== RESPOSTA REAL ===
+[ ]

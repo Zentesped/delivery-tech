@@ -1,0 +1,17 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 29/08/2025 18:57:23
+Método: POST
+URL Completa: http://localhost:8080/api/auth/login
+Status HTTP: 200
+Content-Type: application/json
+
+=== DADOS ENVIADOS ===
+{
+  "username" : "leo@outlook.com",
+  "password" : "1234"
+}
+
+=== RESPOSTA REAL ===
+{
+  "token" : "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsZW9Ab3V0bG9vay5jb20iLCJpYXQiOjE3NTY1MDQ2NDMsImV4cCI6MTc1NjU5MTA0M30.8BXRyzPLL4NC4L9AcFtqFqRMAZk-MHdz6EItgmkivK0"
+}

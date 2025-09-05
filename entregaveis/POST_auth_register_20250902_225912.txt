@@ -1,0 +1,22 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 02/09/2025 22:59:12
+Método: POST
+URL Completa: http://localhost:8080/api/auth/register
+Status HTTP: 201
+Content-Type: application/json
+
+=== DADOS ENVIADOS ===
+{
+  "email" : "leomuniz@outlook.com",
+  "senha" : "123",
+  "nome" : "leonardo",
+  "role" : "ADMIN"
+}
+
+=== RESPOSTA REAL ===
+{
+  "message" : "Usuário criado com sucesso",
+  "email" : null,
+  "nome" : null,
+  "role" : null
+}

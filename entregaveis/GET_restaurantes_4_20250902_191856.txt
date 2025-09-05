@@ -1,0 +1,18 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 02/09/2025 19:18:56
+Método: GET
+URL Completa: http://localhost:8080/api/restaurantes/4
+Status HTTP: 200
+Content-Type: application/json
+
+
+=== RESPOSTA REAL ===
+{
+  "id" : 4,
+  "nome" : "Gyros Athenas",
+  "categoria" : "Grega",
+  "telefone" : "1166666666",
+  "taxaEntrega" : 6.5,
+  "tempoEntregaMinutos" : null,
+  "ativo" : true
+}

@@ -1,0 +1,10 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 01/09/2025 21:45:49
+Método: GET
+URL Completa: http://localhost:8080/api/clientes/buscar?nome=gabriel
+Status HTTP: 200
+Content-Type: application/json
+
+
+=== RESPOSTA REAL ===
+[ ]

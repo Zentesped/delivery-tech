@@ -1,0 +1,22 @@
+=== ENTREGA - TESTE DE ENDPOINT ===
+Data/Hora: 25/08/2025 22:22:06
+Método: POST
+URL Completa: http://localhost:8080/api/auth/register
+Status HTTP: 500
+Content-Type: application/json
+
+=== DADOS ENVIADOS ===
+{
+  "email" : "leo.m@outlook.com",
+  "senha" : "1014",
+  "nome" : "Leonardo",
+  "role" : "ADMIN"
+}
+
+=== RESPOSTA REAL ===
+{
+  "error" : "Erro interno do servidor",
+  "message" : "Ocorreu um erro inesperado",
+  "timestamp" : "2025-08-25T22:22:06.6301156",
+  "status" : 500
+}
